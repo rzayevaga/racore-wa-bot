@@ -1,18 +1,52 @@
 {
-  "sessionName": "racore-session",
-  "ownerNumber": "994"
+  "sessionName": "racore-premium-session",
+  "ownerNumber": "994",
   "ownerName": "Rzayeff Ağa",
   "botName": "RACORE",
   "author": "Team rzayeffdi",
   "prefix": ".",
-  "maxUploadSize": 100,
-  "isAutoRead": true,
-  "isAutoRecord": true,
-  "isCallBlock": false,
-  "isSelf": false,
-  "isPreview": true,
-  "isSaveSession": true,
-  "databasePath": "./database.sqlite",
-  "sessionPath": "./session.json",
-  "qrTimeout": 40
+  "language": "az",
+  "timezone": "Asia/Baku",
+  
+  "features": {
+    "isAutoRead": true,
+    "isAutoRecord": false,
+    "isCallBlock": true,
+    "isSelf": false,
+    "isPreview": true,
+    "isSaveSession": true,
+    "isAntiSpam": true,
+    "isBackup": true,
+    "isBroadcast": true
+  },
+  
+  "settings": {
+    "maxUploadSize": 100,
+    "qrTimeout": 40,
+    "maxRetry": 5,
+    "sessionPath": "./sessions",
+    "databasePath": "./database/racore.db",
+    "logPath": "./logs",
+    "backupPath": "./backups"
+  },
+  
+  "apiKeys": {
+    "openWeather": "your_api_key",
+    "tinyUrl": "your_api_key"
+  },
+  
+  "premium": {
+    "isPremium": true,
+    "premiumUsers": ["994XXXXXXXXX@s.whatsapp.net"],
+    "maxCommands": 1000
+  },
+  
+  "menus": {
+    "mainMenu": true,
+    "groupMenu": true,
+    "ownerMenu": true,
+    "funMenu": true,
+    "toolMenu": true,
+    "mediaMenu": true
+  }
 }
