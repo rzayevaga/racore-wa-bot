@@ -77,7 +77,7 @@ class RACOREBot {
                 backupPath: "./backups"
             },
             apiKeys: {
-                openWeather: "your_api_key",
+                openWeather: "bb9e8a6f1d682619a83d1b642ab68a36",
                 tinyUrl: "your_api_key"
             },
             premium: {
